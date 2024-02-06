@@ -50,11 +50,97 @@
             <!-- call to actions -->
             <section>
                 <h2>Hvad kan vi hjælpe dig med?</h2>
-                <div>
-                    
+                <div class="cta-1">
+                    <img src="img/branding.png" alt="">
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta magnam adipisci enim tempore sapiente, rerum quod eius consequuntur at doloremque.</p>
+                    <a href="#">Læs mere om branding</a>
+                </div>
+                <div class="cta-2">
+                    <img src="img/seo.png" alt="">
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat recusandae natus nemo voluptatum, iste similique earum cupiditate voluptates iure est.</p>
+                    <a href="#">læs mere om SEO</a>
+                </div>
+                <div class="cta-3">
+                    <img src="img/internet.png" alt="">
+                    <h3>Hjemmesider</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ut necessitatibus, vitae exercitationem unde magni placeat impedit totam. Ea, odit!</p>
+                    <a href="#">Læs mere om hjemmesider</a>
                 </div>
             </section>
+
+            <!-- Tekst og billede section -->
+            <section>
+                <div class="tekst">
+                    <h2>Vi går hele vejen med jer!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus aspernatur eos culpa qui expedita nesciunt aperiam cupiditate adipisci voluptas?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, repellendus?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero tempora laboriosam ducimus suscipit aperiam fugit vel, labore harum, possimus beatae dolorem quasi esse, omnis cum illum quisquam laudantium numquam? Architecto.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda ipsam rem distinctio nobis eum ex, possimus labore expedita recusandae quisquam.</p>
+                    <a href="#">Læs mere om vores processarbejde</a>
+                </div>
+                <div class="billede">
+                    <!-- billede indsættes i scss -->
+                </div>
+            </section>
+
+
+            <!-- Formular -->
+            <section class="kontakt-bg-img">
+                <form class="kontaktform">
+                    <h3>Kontakt os</h3>
+                    <p>Kontakt os nedenfor for et uforpligtende tilbud.</p>
+                    <div class="section-form">
+                        <label     class="visually-hidden" for="navn">Navn</label>
+                        <input id="navn" type="text" placeholder="Navn">
+                        <label    class="visually-hidden" for="mail">E-mail</label>
+                        <input id="mail" type="text" placeholder="E-mail">
+                    </div>
+                    <div class="section-form">
+                        <label   class="visually-hidden" for="telefon">Telefon</label>
+                        <input type="text" placeholder="Telefon" id="telefon">
+                        <label  class="visually-hidden" for="region">Vælg din region</label>
+                        <select name="Vælg region" id="region">
+                            <option value="0" selected disabled> Vælg din region</option>
+                            <option value="1">Syddanmark</option>
+                            <option value="2"> Region Sjælland</option>
+                            <option value="3">Region Hovedstanden</option>
+                            <option value="4">Region Nordjylland</option>
+                            <option value="5">Region Midtjylland</option>
+                            <option value="6">Region Fyn</option>
+                        </select>
+                    </div>
+                    <div class="section form">
+                        <label class="visually-hidden" for="besked">Besked</label>
+                        <textarea id="besked" cols="30" rows="8"></textarea>
+                    </div>
+                    <div class="section-form">
+                        <input type="submit" name="submit" value="Send Besked">
+                    </div>
+                </form>
+            </section>
         </main>
+
+        <!-- Footer -->
+        <footer>
+            <section class="footerleft">
+                <h4>Info</h4>
+                <p>Banding.co</p>
+                <p>Kassedammen 1 </p>
+                <p>Soldat 3</p>
+                <p>Nedergårdsvej 36</p>
+                <a href="tel:+4525252622"></a>
+            </section>
+            <section class="footerright">
+                <img src="img/logo-gron.png" alt="">
+            </section>
+        </footer>
+
+        <!-- Footer bund -->
+        <footer>
+            <p class="footerbund">Banding.co</p>
+        </footer>
     </div>
 
 
