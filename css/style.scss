@@ -23,7 +23,56 @@ body {
         }
 }
 
-
 img {
-    max-width: 100%s;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+}
+
+
+//navigation 
+
+header {
+    grid-column: 1/6;
+   @include partial.flex($justify: space-between); 
+   background-color: partial.$nav-color;
+   border-bottom: solid 4px partial.$primary-color;
+}
+
+nav{
+    height: 4em;
+    padding: 1em;
+    @include partial.flex ($justify:space-between);
+
+        img{
+            width: 70px;
+        }
+
+        ul {
+            list-style-type: none;
+            @include partial.flex;
+        }
+
+        a {
+            color: partial.$txt-color;
+            padding: partial.$padding;
+            margin: partial.$padding;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: partial.$primary-color;
+        }
+
+     
+
+
+
 }
