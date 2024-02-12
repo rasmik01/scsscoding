@@ -1,0 +1,24 @@
+@use 'partial';
+
+//Generel styling
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: partial.$font;
+    background-color: partial.$bg-color;
+
+        p{
+            font-size: 16px;
+            color: partial.$txt-color;
+            line-height: 1.5;
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            font-weight: 600;
+            color: partial.$txt-color;
+        }
+}
